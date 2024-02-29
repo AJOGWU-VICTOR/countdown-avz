@@ -1,0 +1,61 @@
+body{
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    width: 60%;
+    box-shadow: 2px 2px 10px #aaaaaa;
+    border-radius: 5px;
+    padding: 30px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("miguel-tomas-0cTbQrEnRLo-unsplash.jpg");
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-color: azure;
+    border-radius: 5px;
+}
+#timer{
+    width: 50%;
+}
+#timer h2{
+    color: #06dbca;
+}
+.counter{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.box{
+    background-color: #06dbca;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    border-radius: 5px;    
+}
+.box span{
+    font-size: 30px;
+}
+.box p{
+    margin: 0;
+}
+.name{
+    display: flex;
+    gap: 40px;
+}
