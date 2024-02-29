@@ -10,15 +10,20 @@ body{
 }
 .container {
     display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
     width: 60%;
+    max-width: fit-content;
+    min-width: none;
+    max-height: fit-content;
+    min-height: auto;
     box-shadow: 2px 2px 10px #aaaaaa;
     border-radius: 5px;
     padding: 30px;
 }
 .left{
-    width: 50%;
-    display: flex;
+    width: 100%;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-image: url("miguel-tomas-0cTbQrEnRLo-unsplash.jpg");
